@@ -1,0 +1,481 @@
+*{
+    margin:0;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width:115px;
+    
+
+}
+.nav-bar{
+    height: 50px;
+    width:115px;
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+    width:115px;
+}
+/*box2*/
+.nav-address{
+    padding:8px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;        
+}   
+#one{
+    color: #cccccc;
+    font-size: 0.85rem;   
+    margin-left:18px;
+}
+#two{
+    color:#ffffff ;    
+}        
+/*box3*/
+.search-bar{
+    align-items: center;
+    display: flex;
+    width:620px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left:9px;
+    color:#0f1111;
+   
+} 
+select{
+    background-color:#f3f3f3;
+    font-size: 14px;
+    height: 38px;
+    width:50px;
+    text-align:center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+              
+}
+.search-icon i{ background-color:#febd68;
+    width:45px;
+    display:flex;
+    align-items: center;
+    font-size:1.5rem;
+    height:38px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    border:none;
+    padding-top:1px;
+    justify-content: center;
+    border:none;
+    color: #0f1111;
+
+}
+.search-bar:hover{
+    border: 2px solid #febd68;
+}
+input{
+    padding-left:7px;
+    width:100%;
+    height: 38px;
+    font-size: 1rem;
+    border: none;
+}
+/*box4*/
+.lan{
+    display:flex;
+    align-items: center;
+}
+.flag{
+    background-image:url("indian flag.webp") ;
+    background-size:cover;
+    display:inline-block;
+    width: 20px;
+    height: 15px;
+    background-repeat: no-repeat; 
+    margin-right: 2px;   
+}
+.flag i{
+    margin-top: 2px;
+    display: flex;
+    color:#a7a7a7;
+    font-size:10px;
+    padding-top: 3px;
+}
+/*box5*/
+.acc-container{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+#hello{
+    font-size: 12px;
+}
+.acc{
+    font-weight: 700;
+}
+/*box6*/
+.nav-cart i{
+    font-size: 30px;
+    color: #ffffff;    
+}
+.nav-cart{
+    font-size: 0.85rem;
+}
+/*panel*/
+/*box1*/
+.Panel{
+    height: 39px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.add-menu i{
+    color:#ffffff;
+    height: 14px;
+    width: 17px;
+    font-weight: 700;
+    
+
+}
+.add-menu{
+    color: white;
+    font-size: 14px;
+    padding-left: 5px;
+    font-weight: 700;
+}
+/**panel-ops*/
+.panel-ops{
+    display: flex;
+    color: #ffffff;
+    margin-top:10px;
+    margin-left:20px;
+    font-size: 14px;
+
+    
+}
+.panel-ops p{
+    display: inline;
+    color: #ffffff;
+    margin-top:10px;
+    margin-left:20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    
+}
+
+/*---HERO IMAGE---*/
+.hero-section{
+    background-image: url("new_image.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 0px;
+   
+   
+}
+.hero-msg {
+    height:40px;
+    width: 1200px;
+    background-color: #f5f6f6;
+    color: #0f1111;
+    font-weight: 500;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    z-index: 2;
+    margin-bottom: 160px;
+}
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
+/* row 1 box 1*/
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    background-color:#eaeded;
+    gap: 20px;
+    position: relative;
+    margin-top:-150px;
+    z-index: 1;  
+}
+.box{
+    height: 420px;
+    width: 23%;
+    border: none;
+    font-size: 19px;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.content-section h3{
+    font-weight: 700;
+}
+.box-img{
+    height: 300px;
+    background-image: url("shop gamming.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 15px 0px;
+
+}
+.box a{
+    text-decoration: none;
+    color: #2162a1;
+    font-size: 13px;
+}
+.content-section{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img2{
+    background-image: url("box2.jpg");
+}
+.box-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 10px 15px 10px;
+    
+}
+.box a{
+     text-decoration: none;
+    color: #2162a1;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.item{
+    width: 48%;
+
+}
+.item-img{
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+}
+.item-img p{
+    font-size: 5px;
+    color: #565959;
+}
+.tops{background-image: url("box3.jpg");
+
+}
+
+.jeans{
+    background-image: url("box3_2.jpg");
+}
+.dresses{
+    background-image: url("box3_3.jpg");
+    margin-top: 10px;
+}
+
+.shoes{
+    background-image: url("box3_4.jpg");
+    margin-top: 10px;
+}
+.Backpacks{
+    background-image: url("box 4.jpg");
+}
+.Electronics{
+    background-image: url("box4_2.jpg");
+}
+.Stationery{
+    background-image: url("box4_3.jpg");
+}
+.Fashion{
+    background-image: url("box4_4.jpg");
+}
+.Kitchen{
+    background-image: url("box5-1.jpg");
+}
+.Home{
+    background-image: url("box5-2.jpg");
+}
+.decor{
+    background-image: url("box5-3.jpg");
+}
+.bedding{
+    background-image: url("box5-4.jpg");
+}
+.dress{
+    background-image: url("box6-1.jpg");
+}
+.knits{
+    background-image:url("box6-2.jpg") ;
+}
+.jack{
+    background-image: url("box6-3.jpg");
+}
+.jewel{
+    background-image: url("box6-4.jpg");
+}
+.makeup{
+    background-image: url("box7-1.jpg");
+}
+.brush{
+    background-image: url("box7-2.jpg");
+}
+.sponge{
+    background-image: url("box7-3.jpg");
+}
+.mirror{
+    background-image: url("box7-4.jpg");
+}
+.pc{
+    background-image: url("box8-1.jpg");
+}
+.xbox{
+    background-image: url("box8-2.jpg");
+}
+.PlayStation{
+    background-image: url("box8-3.jpg");
+}
+.switch{
+    background-image: url("box8-4.jpg");
+}
+/*LONG BOX*/
+.long-content{
+    border:none;
+    height:250px;
+    width:98%;
+    display: flex;
+    margin-top: 20px;
+    background-color:white;
+    padding:20px;
+}
+.inside h3{
+    font-size: 21px;
+    padding: 20px 0px 15px 10px;
+    font-weight: 700;
+    background-color: white;
+}
+.product{
+    display: flex;
+    gap: 11px;
+}
+.product div{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width:170px;
+
+}
+.ramdom{
+    background-color: white;
+}
+.product-water{
+    background-image: url("box9-1.jpg");
+}
+.product-dumble{
+    background-image: url("box9-2.jpg");
+}
+.product-waterbottle{
+    background-image: url("box9-3.jpg");
+}
+.product-harness{
+    background-image: url("box9-4.jpg");
+}
+.product-ball{
+    background-image: url("box9-5.jpg");
+}
+.product-known{
+    background-image: url("box9-6.jpg");
+    margin-left: 20px;
+}
+.product-seatbelt{
+    background-image: url("box9-7.jpg");
+}
+.product-rope{
+    background-image: url("box9-8.jpg");
+}
+.product-bookone{
+    background-image: url("book10-1.jpg");
+} 
+.product-booktwo{
+    background-image: url("book10-2.jpg");
+}
+.product-bookthree{
+    background-image: url("book10-3.jpg");
+
+}
+.product-bookfour{
+    background-image: url("book10-4.jpg");
+}
+.product-bookfive{
+    background-image: url("book10-5.jpg");
+}
+.product-booksix{
+    background-image:url("book10-6.jpg");
+}
+.product-bookseven{
+    background-image: url("book10-7.jpg");
+}
+.product-bookeight{
+    background-image: url("book10-8.jpg");
+}
+.footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    color:white;
+    background-color: #37475a;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    font-weight: 500;
+}
+.foot-panel2{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 40px 0px;
+
+}
+ul{
+    margin: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+ul p{
+    font-weight: 600;
+}
+
+
